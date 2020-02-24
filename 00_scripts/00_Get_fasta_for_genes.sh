@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
-#PBS -q mpi
-#PBS -l walltime=48:00:00
-#PBS -l select=1:ncpus=28:mem=115g
+#$ -N Run_Get_fasta_for_genes
+#$ -cwd
+#$ -pe smp 6
+#$ -l h_vmem=6G
+
 
 DATADIRECTORY=/home/stenger/stenger_data/Acropora_digitifera_RNA_Seq/01_data
 GENOME_FASTA=/home/stenger/stenger_data/NEW_GENOME_ADIG2020/GCF_000222465.1_Adig_1.1_genomic_fna/GCF_000222465.1_Adig_1.1_genomic_fna/GCF_000222465.1_Adig_1.1_genomic_database_06_col1.fna
