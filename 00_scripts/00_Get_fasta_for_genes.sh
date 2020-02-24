@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 #$ -N Run_Get_fasta_for_genes
-#$ -cwd
-#$ -pe smp 6
-#$ -l h_vmem=6G
 
 
 DATADIRECTORY=/home/stenger/stenger_data/Acropora_digitifera_RNA_Seq/01_data
