@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #$ -N Run_Get_fasta_for_genes
+#$ -cwd
 
 
 DATADIRECTORY=/home/stenger/stenger_data/Acropora_digitifera_RNA_Seq/01_data
